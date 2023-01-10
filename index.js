@@ -13,7 +13,7 @@ let CATALOG = [];
 // https://api.jsonserve.com/bNWGAm
 // server/catalog.json
 
-fetch('https://api.jsonserve.com/bNWGAm')
+fetch('server/catalog.json')
     .then(res => res.json())
     .then(body => {
         CATALOG = body; 
